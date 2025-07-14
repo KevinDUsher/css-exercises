@@ -46,3 +46,24 @@ a {
 ul {
   list-style-type: none;
 }
+
+.header, .links, .rightNavBar, .leftNavBar{
+  display: flex;
+}
+.header{
+  padding: 8px;
+  justify-content: space-between;
+}
+.links{
+  gap: 16px;
+  margin: 0;
+  padding: 0;
+}
+.leftNavBar{
+  align-items: center;
+  gap: 16px;
+}
+.rightNavBar{
+  gap: 8px;
+  align-items: center;
+}

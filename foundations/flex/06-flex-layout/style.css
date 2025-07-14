@@ -24,3 +24,50 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/*   my code starts here */
+
+ul{
+  display: flex;
+  list-style: none;
+}
+
+li{
+  margin: 8px;
+}
+
+a{
+  text-decoration: none;
+  color: gray;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgrey;
+  padding: 8px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button{
+  padding: 8px;
+  margin-top: 16px;
+}

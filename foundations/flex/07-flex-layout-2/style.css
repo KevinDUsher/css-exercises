@@ -27,3 +27,45 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/*               My code starts here            */
+
+body{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.midSection{
+  display: flex;
+  flex: 1;
+}
+.sideBar{
+  size: 300px;
+  flex: 0 0 auto;
+  padding: 16px;
+}
+.rightMidSection{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px;
+  gap: 32px;
+}
+
+.card{
+  width: 300px;
+  padding: 16px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: left;
+}
